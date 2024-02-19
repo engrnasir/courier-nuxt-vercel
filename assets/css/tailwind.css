@@ -1,0 +1,46 @@
+@import url('./font.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;   
+
+html{
+  @apply scroll-smooth;
+}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+  font-family: 'Sofia Pro', sans-serif;
+}
+.row{
+  @apply w-[100%] max-w-[1440px] mx-auto;
+}
+.btn{
+  @apply min-w-max px-6 py-2 rounded-[40px] text-base  font-medium bg-white text-blue cursor-pointer transition-all duration-200 hover:bg-yellow hover:text-blue capitalize; 
+}
+.btn-blue{
+  @apply px-12 py-[10px] rounded-[40px] text-lg font-medium bg-blue text-white cursor-pointer transition-all duration-200 hover:bg-yellow hover:text-blue capitalize; 
+}
+.btn-yellow{
+  @apply px-12 py-[10px] rounded-[40px] text-lg font-medium bg-yellow text-blue cursor-pointer transition-all duration-200 hover:bg-white capitalize; 
+}
+
+.main-heading{
+  @apply font-bold text-blue leading-none mb-4 text-2xl md:text-3xl capitalize;
+}
+.heading{
+  @apply text-blue mb-4 font-bold capitalize leading-8 text-base md:text-xl;
+}
+.sub-heading{
+  @apply text-blue text-base mb-4 leading-none capitalize;
+}
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

@@ -1,0 +1,562 @@
+common:
+  sign-up: Sign Up for Free
+  lbs: Lbs
+  viewMore: View More
+  viewAll: View all
+  viewAllBrand: View all Brands
+  viewLess: View less
+  affliateDisclosure: As an Affiliate program participant, Aeropost may earn commission from qualifying purchases
+footer:
+  tagline: We Make Shipping Simple!
+  copyright: © {year} Aeropost. All Rights Reserved.
+home:
+  hero:
+    title: Buy Anything from the U.S.
+    utext: with Aeropost
+    description: The easiest way to ship from your favorite U.S. online stores to
+  benefits:
+    heading: Why We’re The Total Package!
+    cards:
+      shop:
+        text: Save 7% on Taxes
+        link: 
+      prealert: 
+        text: Submit Pre-Alert
+        link: /en
+      payment:
+        text: Make Payment
+        link: /en/Payments
+      track-package:
+        text: Track Packages
+        link: /en/Packages 
+    more-reasons: More Reasons To Ship
+    register: Register Now
+  details:
+    prealert:
+      title: PRE-ALERT
+      description: Process your package much more smoothly.
+      text: >-
+        After placing an order using your FREE U.S. address, {0} to let us know that your package is on its way to our Miami fulfillment center. This step is crucial in ensuring that packages are processed as smoothly and efficiently as possible.
+      anchor: Submit Pre-alert
+    autopay:
+      title: AUTOPAY
+      description: Less time at checkout, more time shopping online. 
+      text: >-
+        Streamline your online shopping experience even more when you {0} at aeropost.com. Enabling the AutoPay function will allow us to automatically charge the cost of your package to your saved  credit card or debit card when it arrives at our Miami fulfillment center. 
+      anchor: ENROLL IN AUTOPAY
+  testimonials: What Our Customers Are Saying
+newHome:
+  details:
+    us-address:
+      title: Free US Address
+      description: Buy from our featured stores using your Free US address
+      text: Sound too good to be true? Make purchase from our featured stores using your Aeropost Free US address.
+  howItWorks:
+    signup:
+      title: Join
+      text:  Get your free U.S. address and access to retail details in 30 seconds
+    deals:
+      title: Deals & Discounts  
+      text: We curate the best deals from your favorite stores. Shop online and have your packages delivered to you.
+    order:
+      title: Order & Ship 
+      text: Shop online and have your packages delivered to your aeropost U.S. address. We  will deliver your packages securely to your country for pickup.
+shop:
+  title: Deals
+benefits:
+  title: Benefits
+  hero:
+    title: Why We're The Total Package!
+    description: >-
+      Aeropost has a proven track record spanning over three decades of
+      providing efficient courier services and competitive shipping rates
+      throughout Latin America and The Caribbean.
+  items:
+    fast:
+      title: Security & Reliability
+      description: Last-mile delivery with the highest flight frequency in the region.
+    secure:
+      title: Secure Transactions
+      description: >-
+        We use the latest technology to ensure that your transactions are
+        secure.
+    return:
+      title: Easy Returns
+      description: >-
+        If you are not satisfied with your purchase, we make it simple to return it.
+    save:
+      title: Save on Taxes
+      description: Save 7% U.S. Sales Tax when using your Aeropost address.
+    track:
+      title: Track Your Packages
+      description: Receive up-to-date tracking updates for your packages.
+    locker:
+      title: Free Locker Pick Up
+      description: >-
+        Our smart parcel lockers are conveniently placed and simple to use. In
+        as little as 23 seconds, you can access your package from any of our
+        smart parcel lockers.
+    hub:
+      title: Convenient Package Pickup
+      description: >-
+        Pick up your package(s) at one of our conveniently-placed Aeropost hub store locations.
+    credit-card:
+      title: Multiple Payment Options
+      description: >-
+        We have multiple payment options; pay with a credit or debit card,
+        Paypal or even with cash at our stores in select countries.
+    hand:
+      title: Weight Based Shipping
+      description: We charge based on weight, not volume.
+contact:
+  title: Contact Us
+  hero:
+    title: Contact Us
+how-it-works:
+  title: How It Works
+  hero:
+    title: How It Works
+    description: >-
+      Shopping from the U.S. has never been easier than with Aeropost. We’ve streamlined our courier process to ensure that you have the simplest and smoothest online shopping experience.
+  steps:
+    '1':
+      title: Register for a FREE U.S. Address
+      description: Create an Aeropost account to get  a FREE U.S. address.
+    '2':
+      title: Shop Online
+      description: >-
+        Shop your favorite U.S. online stores using the FREE U.S. address
+        provided.
+    '3':
+      title: Submit a Pre-alert
+      description: >-
+        Let us know when your package is on its way to our Miami fulfillment
+        center.
+    '4':
+      title: Receive or Pick Up Package
+      bhs-description: >-
+        Pick up packages from your selected Aeropost store or a smart parcel locker.
+      description: >-
+        Pick up packages from your selected Aeropost store or right from your
+        front door!
+      description-lockers: >-
+        Pick up packages from your selected Aeropost store, smart parcel locker,
+        or right from your front door!
+rates:
+  title: Rates
+  hero:
+    title: Rates
+    description: >-
+      Your FREE U.S. ADDRESS allows you to shop online from your favorite U.S.
+      stores and pick up packages from our local hub stores or right from your
+      doorstep!
+    description-lockers: >-
+      Your FREE U.S. ADDRESS allows you to shop online from your favorite U.S.
+      stores and pick up packages from our local hub stores, smart parcel lockers or right from your
+      doorstep!
+    bhs-description: >-
+      Your FREE U.S. ADDRESS allows you to shop online from your favorite U.S.
+      stores and pick up packages from our local hub stores or smart parcel lockers!
+calculator:
+  title: Cost Calculator
+  hero:
+    title: Cost Calculator
+    description: >-
+      Calculate your approximate shipping cost including freight and customs
+      charges by utilizing our cost calculator.
+  form:
+    product: Products
+    selectProd: Select Product
+    account: Account Type
+    selectAcct: Select Account
+    weight: Total Weight
+    val: Value in USD
+    include: Include Shipping and Tax
+    calculate: Calculate
+  result:
+    declare: Declared Value
+    cif: CIF Value (Customs Value)
+    charges: Charges
+    freight: Freight
+    warranty: Warranty and Returns Program
+    fuel: Fuel
+    custom: Customs Handling
+    duties: Duties
+    iva: IVA
+    salesTax: IVA Importation
+    vat: VAT
+    total: Total Charges
+    totalVal: Total (including product value)
+  text: >-
+    *The price indicated above is only an estimate of the freight and customs charges. We remind you that the final costs may vary depending on the actual customs declarations and/or other charges such as special handling on consumer commodities and a select number of import requirements on certain items ({0}) .
+  anchor: see restricted shipments for more information
+faqs:
+  title: FAQs
+  hero:
+    title: Frequently Asked Questions
+  footer:
+    title: Got A Question?
+    description: We'd Love To Hear From You.
+    button: Contact Us
+  questions:
+    0:
+      question: How do I use my Miami address?
+      answer: >-
+        At checkout, list your FREE U.S. ADDRESS as the address for the order to
+        be shipped to. To prevent delays in receiving your package(s), please
+        ensure that you input the correct name and address.
+
+
+        Your Miami address is a physical address where Aeropost receives and
+        processes your packages and then sends them to your selected store or
+        smart parcel locker in your destination country.
+
+
+        No customer address is exactly the same; each address is made up of your
+        account number, your country code (3 letters), our physical address, and
+        the postal code.
+
+
+        (Example below)
+
+
+        Miami Address for PACKAGES (Billing and Shipping   Address)
+
+
+        Name: [[ CUSTOMER NAME ]] [[ GTW ]]-[[ ACCOUNT# ]]
+
+        Address Line 1: 1 Aeropost Way
+
+        Address Line 2: 
+                  City: Miami
+                 State: FL
+              Zip Code: 33206-3206
+        
+        Phone Number: (786) 322-2032
+
+
+        Note: Please only include your  First and Last Name, no Middle or Second Last Name.
+    1:
+      question: How to calculate the price?
+      answer: >-
+        Before placing an order with your FREE U.S. ADDRESS, you can view an
+        estimate of how much you will have to pay for the shipment and
+        nationalization of the package.
+
+
+        To do so, simply enter the following details into the Aeropost Cost
+        Calculator: product category, product weight, listed price, and your
+        account type.
+
+
+        In order to generate the most accurate estimated cost, be sure to list
+        the correct product category by either typing the name of the item you
+        want to quote or the name most similar to the item. (for example, for a
+        stopwatch you can enter "clock").
+    2:
+      question: How to pre-alert?
+      answer: >-
+        After making a purchase, you should submit an Aeropost pre-alert to let
+        us know in advance that a package is on its way to our Miami fulfillment
+        center.  This step is crucial in ensuring that package processing is
+        faster and smoother.
+
+
+        To submit a pre-alert for an incoming package, go to 'My Account' and
+        select + PRE-ALERT YOUR PACKAGE. Fill-in the pre-alert form with the
+        package details and upload the invoice.
+    3:
+      question: How to return a product?
+      answer: >-
+          To return a package you must contact the supplier or manufacturer of the
+          product and obtain a return authorization (neither Aeropost nor its
+          affiliates can contact the supplier or manufacturer to request such
+          authorization).  Once it has been issued, you must contact Aeropost and
+          an agent will give you the instructions to follow. Aeropost must receive
+          all the corresponding documentation as well as the merchandise to be
+          returned no later than 15 business days prior to the expiration date of
+          the return authorization issued by the supplier.
+      disclaimer: We do not provide cash refunds; instead, refunds are issued through in-store credit or wire transfers only.
+    4:
+      question: How to set up autopay?
+      answer: >-
+        After you enter your card information, click the Auto-Pay option.
+
+
+        Your card data will then be securely encrypted and linked to your
+        account for future billings.
+
+
+        OR
+
+
+        Go to My Account » Profile » Payment Methods, and select AutoPay to save
+        your card information in advance for future purchases.
+restricted:
+  title: Restricted Products
+  hero:
+    title: Restricted Products
+business:
+  title: Business
+  hero:
+    title: Business Shipping Made
+    utext: Simple
+    description: Import from the USA. Ship, Manage & Track with Confidence.
+  open: Open Your Free Business Account
+  get-started: Get Started
+  import:
+    title: Import Shipping
+    heading: Simplify Your Import Shipping Process
+    description: >-
+      Importing products into your county can be a complex and challenging
+      process. At Aeropost, we understand the intricacies and nuances of
+      importing goods and can offer you custom shipping solutions that simplify
+      and streamline the process including last mile delivery to your store
+      front. Our reliable service ensures that your shipments arrive on time and
+      in good condition.
+  all-in-one:
+    title: All In One Place
+    heading: Import Shipping & Customs Clearance
+    description: >-
+      Whether you’re starting, growing, or expanding your business, we’re here
+      for YOU.
+    cards:
+      parcel:
+        title: Parcels & Documents
+        list:
+          - Light to medium weight shipments (typically upto 70lbs)
+          - Business to Business/Business to Consumer
+      cargo:
+        title: Cargo & Freight
+        list:
+          - Heavier shipments (typically 70lbs+) using pallets or containers
+          - Business to Business
+  shipping:
+    title: Shipping
+    heading: Comprehensive Shipping Solutions for Your Business
+    description: >-
+      We specialize in providing comprehensive import shipping solutions to
+      businesses in the country. Our services include customs clearance,
+      drayage, freight forwarding, and logistics management. Whether you need to
+      import raw materials, equipment, or finished products, we can tailor our
+      services to match your business needs.
+  attributes:
+    gaurantee: Guarantee Program
+    flame: We Transport Dangerous Cargo
+    preload: Pre Load Alert
+    hand: Changes Per Kilogram & Route
+    headphone: Personal Executive
+    flight: Daily Flights
+  form:
+    title: Let us meet you and help you with your imports
+    description: >-
+      A specialized executive will contact you to know our rates and how we can
+      adapt to your business
+    name: Name
+    company: Company
+    phone: Phone
+    email: Email
+    quantity: No. of packages per month
+    weight: Kilos per month
+    reference: How did you find out about Aeropost?
+    message: Message
+    send: Send 
+about:
+  hero:
+    description: Through our commitment to innovating the cross-border customer experience, Aeropost has become a prominent player in the Latin American and the Caribbean markets, supporting millions of consumers and businesses in their cross-border shopping needs.
+  aboutus: 
+    title: About Us
+    description: Aeropost is a global ecommerce and logistics provider focused on solving cross-border shopping and shipping challenges in the Caribbean and Latin America. With operations in over 30+ countries and transporting hundreds of millions of dollars worth of merchandise annually from the US, our aim is to enhance communities' lives through seamless and secure online shopping experiences while disrupting the cross-border freight forwarding industry.
+  ourRoots:
+    title: Our Roots & Evolution
+    description: Aeropost's roots trace back to 1986 when we started as a shipping and logistics solution for US expats in Costa Rica. Today, we have evolved into an asset-based vertically integrated ecommerce provider for Latin America and the Caribbean, offering end-to-end services for cross-border purchases, payments, and deliveries in over 30+ countries.
+  deep:
+    title: Deep Understanding & Expertise
+    description: We have a deep understanding of our customers and the unique demands of each market. From duty calculation and customs clearance to international shipping and last-mile delivery, Aeropost's expertise is unrivaled. Our local presence is prominent, with business entities, staff, assets, infrastructure, customer service, branded retail shops, lockers and an innovative local payments platform that facilitates purchases from US sellers.
+  central:
+    title: Central Operations Center
+    description: The corporate headquarters in Miami serves as our central operations center, housing the International Logistics Hub spanning 177,000 square feet. As an Independent Air Carrier (IAC) and Commercial Mail Receiving Agency (CMRA), we comply fully with US Department of Homeland Security, Transportation Safety Administration, and USPS regulations. Our facility is certified to handle parcels and cargo of all types, including hazardous materials and dangerous goods, and features state-of-the-art security and monitoring systems.
+  services:
+    title: Services
+    description: 'Aeropost offers three service offerings: Courier, Marketplace and Smart Lockers. The Marketplace enables customers to shop from a wide range of retailers in the US, while the Courier provides customers with a virtual address in Miami for importing products from any US retailer. Smart Lockers offer secure and convenient last-mile delivery options.'
+  courier:
+    title: Courier
+    description: Our Courier solution provides customers with a virtual address in Miami, allowing them to import a wide range of products from any US retailer. We offer value-added services such as accepting local payment, cash payment for bankless users, and a comprehensive claim and returns program, setting us apart from competitors. Leveraging our multi-country operations, we maintain our US operations in-house, receiving and processing packages at our central facility in Miami. This gives us cost advantages, operational efficiencies, and better control over the import process.
+  marketplace:
+    title: Marketplace Platform
+    description: Aeropost's Marketplace platform is a key component of our services, offering a streamlined shopping experience with a single cart and checkout process. Customers can browse and purchase products from a wide range of US sellers, while we take care of the logistics, including customs clearance, import/export regulations, and last-mile delivery. This platform also presents opportunities for US sellers to expand their reach into new markets.
+  smartlocker:
+    title: Smart Lockers
+    description: Our Smart Lockers provide a secure and convenient solution to last-mile delivery challenges. These self-service kiosks are placed strategically in convenient locations, allowing customers to pick up their packages at their convenience. Our smart-locker technology utilizes QR codes sent to users' mobile devices for package retrieval. Currently available in seven markets, including the Bahamas, Costa Rica, and Trinidad & Tobago, our Smart Lockers offer an alternative form of delivery. We are also exploring partnerships with local banks, government offices, and retailers to expand the utilization of our Smart Locker Solution
+  expansion:
+    title: Expansion and Future Plans
+    description: Currently, our Marketplace operates in nine countries, including the Bahamas, Jamaica, Trinidad & Tobago, the British Virgin Islands, Barbados, Costa Rica, El Salvador, Guatemala, and Panama. In the future, we plan to expand to larger countries like Peru, Chile, Colombia, and more, leveraging our established brand and expertise to compete with larger competitors.
+  artificial:
+    title: Artificial Intelligence (AI) Integration
+    description: Aeropost is actively embracing artificial intelligence (AI) applications within the organization. The company has implemented a comprehensive AI training program for staff at all levels and is integrating AI into various aspects of the business, such as marketing campaigns, email, CRM capabilities, and logistics operations
+  founders:
+    heading: Founders & CEO
+    co1: Co-founder of Click to Collect and Director of Aeropost
+    co2: Co-founder of Click to Collect and Executive Chairman of Aeropost
+    ceo: CEO of Aeropost
+terms:
+  title: Terms and Conditions
+  hero:
+    title: Aeropost Terms & Conditions
+marketplace:
+  currently: Currently you’re in
+  link: You can also search by product, brand or paste a link on
+  go: Go to Aeropost Marketplace
+country-picker:
+  select: Choose the region where your country is located
+  search:
+    placeholder: Search Country
+    no-results: No Match Found!
+    type: Start typing Country Name...
+  view:
+    all: View all
+    by-region: View by Region
+
+b2b:
+  title: Business Account
+  testimonials: Customer Reviews that Speak for Themselves!
+  hero:
+    title: We are the best solution
+    utext: for your company
+    apply: Apply to Aeropost Business
+  benefits:
+    heading: Exclusive Benefits
+    cards:
+      prealert: 
+        text: Pre-Alert
+        link: /en
+      restrict:
+        text: Restricted Products
+        link: /restricted
+      faq:
+        text: Frequently Asked Questions
+        link: /faqs
+    more-reasons: More Reasons To Ship
+    items: 
+      simple: 
+        title: Simple Rates
+        text: All in rates based on actual weight, not volume. No hidden costs.*
+      special: 
+        title: Special Handling
+        text: We handle cargo of all types, including hazardous material, we offer consolidations / deconsolidations, pickups in the US...
+      support: 
+        title: Dedicated Support
+        text: Premium support channel for all your inquiries.
+      tracking: 
+        title: Online Tracking
+        text: Track your packages online, receive up-to-date tracking updates.
+  about:
+    title: About Us
+    text: Aeropost is a global ecommerce and logistics provider focused on solving cross-border shopping and shipping challenges in the Caribbean and Latin America. With operations in over 30+ countries, we ship hundreds of millions of dollars worth of merchandise annually from the US. Our corporate headquarters in Miami serve as our central operations center, housing the International Logistics Hub spanning 177,000 square feet with certifications from TSA, Homeland security and the USPS. Our team both in the US and in-country is certified to handle cargo of all types, including hazardous material.
+
+blog:
+  title: Blogs
+  search: Search
+  back: Back
+  updated: UPDATED
+  by: by
+  viewMore: View More
+  recent: Recent Posts
+
+seo:
+  country-picker: 
+    title: Select your Country | International Courier & Online Shopping - Aeropost 
+    description: Explore the world of online shopping and seamless courier services with Aeropost! We provide online shopping in 10 countries and Courier service from US to nearly 33 countries worldwide
+  SJO: 
+    title: International Shipping Company from the US to Costa Rica | Aeropost Costa Rica
+    description: Experience your free US address to ship from your favorite U.S. online stores. Trust Aeropost for secure courier services to Costa Rica and save 7% on U.S. Sales Tax when using your Free US Aeropost address.
+  SAL:
+    title: International Shipping Service from the US to El Salvador | Aeropost El Salvador
+    description: Experience seamless courier service from US to El Salvador. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty-free benefits for products valued under $299.99."
+  GUA:
+    title: International Courier from US to Guatemala| Aeropost Guatemala
+    description: Experience your free US address to ship from your favorite U.S. online stores. Trust Aeropost for secure courier services to Guatemala and save 7% on U.S. Sales Tax when using your Free US Aeropost address.
+  BZE:
+    title: International Shipping Company from the US to Belize | Aeropost Belize
+    description: Experience your free US address to ship from your favorite U.S. online stores. Trust Aeropost for secure courier services to Belize and save 7% on U.S. Sales Tax when using your Free US Aeropost address.
+  MGA:
+    title: International Shipping from US to Nicaragua| Aeropost Nicaragua
+    description: Experience your free US address to ship from your favorite U.S. online stores. Trust Aeropost for secure shipping services to Nicaragua and save 7% on U.S. Sales Tax when using your Free US Aeropost address.
+  BHS:
+    title: International Shipping Service from US to Bahamas|Aeropost  Bahamas
+    description: Trust Aeropost for secure shipping to Costa Rica and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  BGI:
+    title: Shipping Services from US to Barbados | Aeropost
+    description: Experience seamless courier service from the US to Barbados! Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free benefits for products valued under $30.
+  EIS:
+    title: International Courier Service from US to British Virgin Islands  | Aeropost British Virgin Islands
+    description: Trust Aeropost for secure courier services to British Virgin Islands and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  POS:
+    title: International Shipping from US to Trinidad & Tobago | Aeropost Trinidad & Tobago
+    description: Trust Aeropost for secure shipping services to Trinidad & Tobago and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  KIN:
+    title: International Shipping to Jamaica from US| Aeropost Jamica
+    description: Experience seamless courier service from US to Jamica. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty-free benefits for products valued under $50
+  AXA:
+    title: International Shipping from US to Anguilla | Aeropost Anguilla
+    description: Trust Aeropost for secure shipping to Anguilla and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  ANU:
+    title: International Shipping from US to Antigua | Aeropost Antigua
+    description: Shop and Ship US Products to Antigua with Aeropost and save 7% on U.S. Sales Tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  AUA:
+    title: International Shipping from US to Aruba | Aeropost Aruba
+    description: Trust Aeropost for secure shipping to Aruba and save 7% on U.S. Sales Tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  GCM:
+    title: International Shipping from US to Cayman Islands | Aeropost Cayman Islands 
+    description: Shop and Ship US Products to Cayman Islands with Aeropost and save 7% on U.S. Sales Tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  GND:
+    title: International Shipping from US to Grenada | Aeropost Grenada
+    description: Shop and Ship US Products to Grenada with Aeropost and take advantage of 7% savings on US sales tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  PTP:
+    title: International Shipping from US to Guadeloupe | Aeropost Guadelope
+    description: Shop and Ship US Products to Guadeloupe with Aeropost and take advantage of 7% savings on US sales tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  PAP:
+    title: International Shipping from US to Haiti | Aeropost Haiti
+    description: Trust Aeropost for secure shipping to Haiti and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  FDF:
+    title: International Shipping from US to Martinique | Aeropoat Martinique
+    description: Shop and Ship US Products to Martinique with Aeropost. Enjoy 7% off on US Sales Tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  MNI:
+    title: International Shipping from The US to Montserrat | Aeropoat Montserrat
+    description: Trust Aeropost for secure shipping to Montserrat and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  SLU:
+    title: International Shipping Service from US to Saint Lucia | Aeropost Saint Lucia
+    description: Trust Aeropost for secure shipping to Saint Lucia and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  SXM:
+    title: International Shipping Service from the US to Saint Martin | Aeropost Saint Martin 
+    description: Experience seamless courier service from US to Saint Martin. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free shopping
+  SVD:
+    title: International Shipping from the US to Saint Vincent | Aeropost Saint Vincent
+    description: Trust Aeropost for secure shipping to Saint Vincent and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  TCA:
+    title: International Shipping Services from the US to Turks & Ciacos | Aeropost Turks & Ciacos
+    description: Shop and Ship US Products to Turks & Ciacos with Aeropost. Enjoy 7% off on US Sales Tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  BOG:
+    title: International Shipping from the US to Colombia | Aeropost Colombia
+    description: Experience seamless courier service from US to Colombia. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free benefits for products valued under $200
+  SCL:
+    title: International Shipping Service from the US to Chile | Aeropost Chile
+    description: Experience seamless courier service from the US to Chile. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free benefits for products valued under $30
+  LIM:
+    title: International Shipping from the US to Peru| Aeropost Peru
+    description: Experience seamless courier service from the US to Peru. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free benefits for products valued under $200.
+  CUR:
+    title: International Shipping from the US to Curacao | Aeropost Curacao
+    description: Shop and Ship US Products to Curacao with Aeropost and take advantage of 7% savings on US sales tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  PTY:
+    title: International Shipping from the US to Panamá | Aeropost Panamá 
+    description: Experience seamless courier service from US to Panamá. Unlock 7% discount on U.S. Sales Tax when using your free US Aeropost address and enjoy duty and VAT free benefits for products valued under $100.
+  DOM:
+    title: International Shipping from the US to Dominica | Aeropost Dominica
+    description: Trust Aeropost for secure shipping to Dominica and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
+  ECU:
+    title: International Courier from US to Ecuador | Aeropost Ecuador
+    description: Shop and Ship US Products to Ecuador with Aeropost and take advantage of 7% savings on US sales tax when using your free US Aeropost address. Send your package today from your preferred US stores.
+  GEO:
+    title: International Courier from the US to Guyana | Aeropost Guyana
+    description: Trust Aeropost for secure shipping to Guyana and save 7% on U.S. Sales Tax when using your Aeropost address. Enjoy your free US address to ship from your favorite U.S. online stores.
