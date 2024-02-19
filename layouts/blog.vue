@@ -12,7 +12,7 @@
       </div>
       <HeaderNavigation class="md:hidden"/>
       <div class="bg-blue dark:bg-dark-header rounded-b-xl overflow-hidden relative max-md:mb-10 max-md:pb-5">
-        <Header :shop="true" class="relative z-[999]" />
+        <Header :shop="true" :blog="true" class="relative z-[999]" />
         
         <OtherScrollLeftRight class="pt-5 px-5 md:hidden relative z-30" :header="true" :autoscroll="true">
           <HomeBannersItem  v-for="(banner, i) in banners" :index="i" :key="i" :banner="banner"/>
