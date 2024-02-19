@@ -15,10 +15,8 @@
           
       </div>
       
-      <div class="row my-10 px-5 mb-24" v-if="filteredBlogs.length>0">
-
+      <div class="row my-10 px-10 md:px-5 mb-24" v-if="filteredBlogs.length>0">
           <BlogsItem v-for="(blog, index) in filteredBlogs" :key="JSON.stringify(blog)" :blog="blog" :index="index" :fullWidth="true"/>
-
       </div>
       <div class="row my-20  mb-40 flex flex-col items-center justify-center text-center" v-else>
           <p class="font-bold text-2xl mb-3">{{ lang==='en'?'No Blog found !':'No se encontró ningún blog !' }}</p>

@@ -36,7 +36,7 @@ const props = defineProps({
 
 const blogText=computed(()=>{
     let text =selectedCountry.value.gtw ==='SJO' && props.blog.sjotext? props.blog.sjotext : lang.value === 'en'? props.blog.text : props.blog.estext
-    return !props.fullWidth? text.length>100?text.substring(-1,100)+'...':text  : text.length>300?text.substring(-1,300)+'...':text 
+    return !props.fullWidth? text.length>100?text.substring(-1,100)+'...':text  : text.length>150?text.substring(-1,150)+'...':text 
 })
 const blogTitle=computed(()=>{
     let title = selectedCountry.value.gtw ==='SJO' && props.blog.sjotitle? props.blog.sjotitle : lang.value==='en'? props.blog.title : props.blog.estitle
@@ -55,13 +55,13 @@ const viewDetails=()=>{
 
 .blogItem{
     box-shadow: 0 0 5px #00000020;
-    @apply min-w-full w-full flex flex-col md:flex-row items-center md:h-[300px] md:rounded-md overflow-hidden mb-7 border-b-2 border-transparent hover:border-yellow cursor-pointer
+    @apply min-w-full w-full flex flex-col sm:flex-row items-center md:h-[300px] md:rounded-md overflow-hidden mb-7 border-b-2 border-transparent hover:border-yellow cursor-pointer
 }
 .thumbnail{
-    @apply w-full h-[250px] md:max-w-[30%]  md:h-full bg-center bg-no-repeat bg-contain  mt-5 md:m-0;
+    @apply w-full h-[150px] md:max-w-[30%]  md:h-full bg-center bg-no-repeat bg-contain  mt-5 md:m-0;
 }
 .title{
-    @apply text-black text-xl lg:text-3xl font-bold
+    @apply text-black text-base lg:text-3xl font-bold
 }
 .updated{
     @apply text-blue text-xs lg:text-base font-semibold mb-2 lg:mb-5

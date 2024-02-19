@@ -1,1 +1,1 @@
-export { default } from "file:///Users/macbookpro/Documents/AEROPOST/tesst/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///Users/macbookpro/Documents/AEROPOST/Courier-site-vercel/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
