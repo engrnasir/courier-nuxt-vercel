@@ -25,7 +25,8 @@
                 <h3 class="title">{{ $t('how-it-works.steps.2.title') }}</h3>
                 <p class="description">{{ $t('how-it-works.steps.2.description') }}</p>
             </div>
-            <NuxtImg quality="80" loading="lazy" src="/images/img2.png" alt="img2" class="w-[360px] mr-24 max-[1100px]:w-[280px] max-[880px]:m-0" v-motion-slide-visible-once-left  :delay="200"/>
+            <NuxtImg quality="80" loading="lazy" src="/images/img2.png" alt="img2" class="w-[360px] mr-24 max-[1100px]:w-[280px] max-[880px]:m-0"/>
+            <!-- v-motion-slide-visible-once-left  :delay="200" -->
         </div>
 
         <!-- Item 3 -->
@@ -37,7 +38,8 @@
                 <h3 class="title">{{ $t('how-it-works.steps.3.title') }}</h3>
                 <p class="description">{{ $t('how-it-works.steps.3.description') }}</p>
             </div>
-            <NuxtImg quality="80" loading="lazy" src="/images/img3.png" alt="img3" class="w-[360px] ml-12 max-[1100px]:w-[280px] max-[880px]:m-0" v-motion-slide-visible-once-right  :delay="200"/>
+            <NuxtImg quality="80" loading="lazy" src="/images/img3.png" alt="img3" class="w-[360px] ml-12 max-[1100px]:w-[280px] max-[880px]:m-0"/>
+            <!-- v-motion-slide-visible-once-right  :delay="200" -->
         </div>
 
         <!-- Item 4 -->
@@ -49,7 +51,8 @@
                 <p class="description" v-if="selectedCountry.gtw === 'BHS'">{{ $t('how-it-works.steps.4.bhs-description') }}</p>
                 <p class="description" v-else>{{ $t(selectedCountry.lockers ? 'how-it-works.steps.4.description-lockers' : 'how-it-works.steps.4.description') }}</p>
             </div>
-            <NuxtImg quality="80" loading="lazy" src="/images/img4.png" alt="img4" class="w-[360px] mr-16 max-[1100px]:w-[280px] max-[880px]:m-0" v-motion-slide-visible-once-left  :delay="200"/>
+            <NuxtImg quality="80" loading="lazy" src="/images/img4.png" alt="img4" class="w-[360px] mr-16 max-[1100px]:w-[280px] max-[880px]:m-0"/>
+            <!-- v-motion-slide-visible-once-left  :delay="200" -->
         </div>
     </div>
     <FooterTitle :bgBlue='true'></FooterTitle>
