@@ -101,7 +101,7 @@ onBeforeMount(()=>{
 
 <style lang="scss" scoped>
 .nav-wrapper{
-  @apply flex justify-between items-center relative z-40;
+  @apply flex justify-between items-center relative z-50;
 }
 
 nav{
@@ -113,9 +113,8 @@ nav{
   }
 }
 .bottomLine{
-    @apply w-full h-[2px] rounded-full relative z-50 bg-yellow animate-moveLeftRight;
-
-  }
+  @apply w-full h-[2px] rounded-full relative z-50 bg-yellow animate-moveLeftRight;
+}
 
 @media screen and (max-width:840px) {
   .nav-wrapper{
