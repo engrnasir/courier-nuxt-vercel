@@ -19,7 +19,8 @@
         <!-- Item 2 -->
         <div class="item flex-row-reverse mb-28">
             <NuxtImg quality="80" loading="lazy" src="/images/line2.png" alt="line2" class="line2"/>
-            <div class="details" v-motion-slide-visible-once-right  :delay="200"> 
+            <!-- v-motion-slide-visible-once-right  :delay="200" -->
+            <div class="details"> 
                 <p class="number">2</p>
                 <h3 class="title">{{ $t('how-it-works.steps.2.title') }}</h3>
                 <p class="description">{{ $t('how-it-works.steps.2.description') }}</p>
@@ -30,7 +31,8 @@
         <!-- Item 3 -->
         <div class="item mb-28">
             <NuxtImg quality="80" loading="lazy" src="/images/line3.png" alt="line3" class="line3"/>
-            <div class="details" v-motion-slide-visible-once-left  :delay="200"> 
+            <!-- v-motion-slide-visible-once-left  :delay="200" -->
+            <div class="details" > 
                 <p class="number">3</p>
                 <h3 class="title">{{ $t('how-it-works.steps.3.title') }}</h3>
                 <p class="description">{{ $t('how-it-works.steps.3.description') }}</p>
@@ -40,7 +42,8 @@
 
         <!-- Item 4 -->
         <div class=" item flex-row-reverse relative">
-            <div class="details" v-motion-slide-visible-once-right :delay="200"> 
+            <!-- v-motion-slide-visible-once-right :delay="200" -->
+            <div class="details" > 
                 <p class="number">4</p>
                 <h3 class="title">{{ $t('how-it-works.steps.4.title') }}</h3>
                 <p class="description" v-if="selectedCountry.gtw === 'BHS'">{{ $t('how-it-works.steps.4.bhs-description') }}</p>
