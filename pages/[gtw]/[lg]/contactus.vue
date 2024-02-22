@@ -30,17 +30,6 @@ const useGladlyChat = computed(()=>{
     return selectedCountry.value.gtw === 'BHS'
 })
 onBeforeMount(()=>{
-  useHead({
-    script:[
-    {
-      type : "text/javascript",
-      defer: true,
-      "data-use-service-core":true,
-      src: 'https://static.elfsight.com/platform/platform.js',
-      tagPosition:'bodyClose',
-    },
-    ]
-  })
     const gtw = route.params.gtw;
     if(gtw){
       const gateway = gateways.find(el=> el.gtw === gtw)
