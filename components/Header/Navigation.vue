@@ -63,7 +63,6 @@ const {
 const router = useRouter()
 const config = useRuntimeConfig()
 const loginUrl = computed(()=>{
-  console.log(config);
   if(selectedCountry.value){
     return `${config.public.VUE_APP_MYACCOUNT_URL}/${lang.value}?gtw=${selectedCountry.value.gtw}`
   }else{
@@ -92,10 +91,6 @@ const setRoute = (page)=>{
     navigateTo( `/country-picker`)
   }
 }
-
-onBeforeMount(()=>{
-  console.log(config);
-})
 
 </script>
 

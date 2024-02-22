@@ -49,6 +49,7 @@ const store = useStore();
 const { selectedCountry, lang } = storeToRefs(store)
 
 
+
 const collapse = (index)=>{
     const items =  document.querySelectorAll('.questionItem')
     const plusbtns =  document.querySelectorAll('.showbtn')
@@ -65,26 +66,47 @@ const collapse = (index)=>{
     items[index].classList.toggle('faqs-hide')
 };
 const loadChileFaqs = ()=>{
+  console.log('here called');
     const enbrandId = 'Xbkp-x8PS_mqxC7GQ8Rfvg'
     const esbrandId = 'vOB2iLf1TZSoaSCWvmNllA'
 
     window.gladlyHCConfig = { api: 'https://aeropost.us-1.gladly.com', orgId: 'd4fE62hCSz6r0jyMB3ka7w', brandId: lang.value==='en'? enbrandId:esbrandId , cdn: 'https://cdn.gladly.com', selector: '#gladly-help-center' };
     
     function l() {
-    var t = document
-    let e = t.createElement('script');
-    e.type = 'text/javascript';
-    e.async = !0;
-    e.src = 'https://cdn.gladly.com/help-center/hcl.js';
-    var a = t.getElementsByTagName('script')[0];
-    a.parentNode.insertBefore(e, a);
+      console.log('called');
+      useHead({
+        script:[
+          {
+            type:'text/javascript',
+            async:true,
+            src:"https://cdn.gladly.com/help-center/hcl.js",
+            tagPosition:"head"
+          }
+        ]
+      })
+      // var t = document
+      // let e = t.createElement('script');
+      // e.type = 'text/javascript';
+      // e.async = !0;
+      // e.src = 'https://cdn.gladly.com/help-center/hcl.js';
+      // var a = t.getElementsByTagName('script')[0];
+      // a.parentNode.insertBefore(e, a);
     }
-    var w = window;
-    w.attachEvent? w.attachEvent('onload', l) : w.addEventListener('DOMContentLoaded', l, !1);
+
+    l();
+    // var w = window;
+    // console.log(window);
+    // if(process.client){
+      
+    //   window.addEventListener('DOMContentLoaded', ()=>{
+    //     console.log('heeehee');
+    //     l()
+    //   });
+    // }
 }
 
 onMounted(()=>{
-    selectedCountry.value.gtw==='SCL'? loadChileFaqs():''
+  selectedCountry.value&& selectedCountry.value.gtw==='SCL'? loadChileFaqs():''
 })
 </script>
   
