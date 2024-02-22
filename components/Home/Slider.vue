@@ -1,5 +1,5 @@
 <template>
-  <div class="py-14 relative" :class="b2b? '':'bg-yellow dark:bg-dark-text'" v-motion-fade-visible>
+  <div class="py-14 relative" :class="b2b? '':'bg-yellow dark:bg-dark-text'">
     <h2 class="testimonial-headinng" v-if="b2b"> {{ $t('b2b.testimonials') }}</h2>
     <h2 class="testimonial-headinng" v-else> {{ $t('home.testimonials') }}</h2>
     

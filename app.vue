@@ -45,7 +45,7 @@ useHead({
       defer: true,
       "data-use-service-core":true,
       src: 'https://static.elfsight.com/platform/platform.js',
-      tagPosition:'bodyClose',
+      tagPosition:'head',
     },
     {
       type : "text/javascript",

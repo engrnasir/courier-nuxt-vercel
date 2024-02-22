@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="mb-3 relative min-h-[50vh]"> 
+  <div class="mb-3 relative min-h-[50vh]" v-if="selectedCountry"> 
     <div :class="selectedCountry.mapClass" id="wrapper" data-elfsight-app-lazy></div>
   </div>
 </div>
