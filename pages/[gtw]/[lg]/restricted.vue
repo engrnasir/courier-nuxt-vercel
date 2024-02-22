@@ -40,6 +40,7 @@ const components = {
     TEG : resolveComponent('RestrictedCountryHonduras'),
     KIN : resolveComponent('RestrictedCountryJamaica'),
     FDF : resolveComponent('RestrictedCountryMartinique'),
+    MNI : resolveComponent('RestrictedCountryMartinique'),
     MGA : resolveComponent('RestrictedCountryNicaragua'),
     PTY : resolveComponent('RestrictedCountryPanama'),
     LIM : resolveComponent('RestrictedCountryPeru'),
