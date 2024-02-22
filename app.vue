@@ -40,13 +40,7 @@ useHead({
       src: '//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US',
       tagPosition:'bodyClose'
     },
-    {
-      type : "text/javascript",
-      defer: true,
-      "data-use-service-core":true,
-      src: 'https://static.elfsight.com/platform/platform.js',
-      tagPosition:'bodyClose',
-    },
+    
     {
       type : "text/javascript",
       defer: 1,
