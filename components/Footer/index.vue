@@ -116,14 +116,14 @@ const LIM_Submit = computed(() => {
 const faqsUrl = computed(() => {
   return selectedCountry.value
     ? `/${selectedCountry.value.gtw}/${lang.value}/faqs`
-    : `/${locale.value}/country-picker`;
+    : `/country-picker`;
 });
 
 const setRoute = (url) => {
   if (selectedCountry.value) {
     navigateTo(`/${selectedCountry.value.gtw}/${lang.value}/${url}`);
   } else {
-    navigateTo(`/${locale.value}/country-picker`);
+    navigateTo(`/country-picker`);
   }
 };
 

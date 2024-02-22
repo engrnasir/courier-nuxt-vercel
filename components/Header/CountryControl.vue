@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-        <nuxt-link class="select" :to="`/${locale}/country-picker`">
+        <nuxt-link class="select" :to="`/country-picker`">
             <p class="text-base mr-3">{{selectedCountry?.name ?? 'Select country'}}</p>
             <NuxtImg quality="80" loading="lazy" src="/images/down.png" alt="down arrow" class="w-3"/>
         </nuxt-link>

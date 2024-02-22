@@ -4,7 +4,7 @@ import type { NuxtError } from '#app'
 const props = defineProps({
   error: Object as () => NuxtError
 })
-const handleError = () => clearError({ redirect: '/en/country-picker' })
+const handleError = () => clearError({ redirect: '/country-picker' })
 </script>
 
 <template>

@@ -40,7 +40,7 @@ const signupUrl = computed(()=>{
         srvParam = encodeURIComponent(srvParam);
         return `${useRuntimeConfig().public.VUE_APP_SIGNUP_URL}?srv=${srvParam}&culture=${lang.value}&gtw=${selectedCountry.value.gtw}&pc=EXPERT`
     }else{
-        return  `/${locale.value}/country-picker`
+        return  `/country-picker`
     }
 })
 </script>

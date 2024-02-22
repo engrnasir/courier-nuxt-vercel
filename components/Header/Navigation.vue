@@ -67,7 +67,7 @@ const loginUrl = computed(()=>{
   if(selectedCountry.value){
     return `${config.public.VUE_APP_MYACCOUNT_URL}/${lang.value}?gtw=${selectedCountry.value.gtw}`
   }else{
-    return `/${locale.value}/country-picker`
+    return `/country-picker`
   }
 })
  
@@ -77,7 +77,7 @@ const signupUrl = computed(()=>{
     srvParam = encodeURIComponent(srvParam);
     return `${useRuntimeConfig().public.VUE_APP_SIGNUP_URL}?srv=${srvParam}&culture=${lang.value}&gtw=${selectedCountry.value.gtw}&pc=EXPERT`
   }else{
-    return `/${locale.value}/country-picker`
+    return `/country-picker`
   }
 })
 
@@ -89,7 +89,7 @@ const setRoute = (page)=>{
     navigateTo(`/${selectedCountry.value.gtw}/${lang.value}/${page}`)
     setShowMenu(false)
   }else{
-    navigateTo( `/${locale.value}/country-picker`)
+    navigateTo( `/country-picker`)
   }
 }
 

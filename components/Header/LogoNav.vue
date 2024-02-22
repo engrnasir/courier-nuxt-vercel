@@ -49,7 +49,7 @@ const loginUrl = computed(()=>{
     if(selectedCountry.value){
         return `${useRuntimeConfig().public.VUE_APP_MYACCOUNT_URL}/${lang.value}?gtw=${selectedCountry.value.gtw}`
     }else{
-        return `/${locale.value}/country-picker`
+        return `/country-picker`
     }
 })
 
